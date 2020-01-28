@@ -1,0 +1,105 @@
+body {
+  background-color: black;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+}
+header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+h1 {
+  display: flex;
+  border-radius: 25px;
+  padding: 10px;
+  width: 170px;
+  border: 2px solid white;
+  text-align: center;
+}
+nav {
+  display: flex;
+}
+.div2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+li {
+  display: flex;
+  list-style-type: none;
+  text-decoration: none;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+a {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: red;
+  justify-content: space-between;
+}
+.logos {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  height: 100px;
+  width: 100px;
+}
+.bottompics {
+  display: flex;
+  height: 200px;
+  width: 200px;
+  flex-direction: row;
+}
+@media only screen and (min-width: 768px) {
+  body {
+    background-color: black;
+  }
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+  }
+  h1 {
+    text-align: center;
+    align-content: center;
+  }
+
+  .logos {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    height: 100px;
+    width: 100px;
+  }
+  nav {
+    display: flex;
+  }
+  ul {
+    display: flex;
+    align-content: center;
+    text-align: center;
+    flex-direction: column;
+  }
+  div {
+    display: flex;
+    align-content: center;
+    text-align: center;
+  }
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    text-align: center;
+  }
+  .div3 {
+    padding-left: 100px;
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+  }
+}
